@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(19, 19, 158);
+}
+
+h2{
+    color: rgb(111, 207, 81);
+} 
+
+h4 {
+    color: rgb(108, 245, 90);
+}
+
+div {
+    color: rgb(138, 219, 138);
+}
+
+h3 {
+    color: rgb(228, 15, 15);
+    font-size:20px;
+    font-weight: bolder;
+}
+
+span {
+    font-style: italic;
+    color: rgb(202, 17, 202);
+    font-weight: bold;
+}
+
+p {
+    color: rgb(20, 230, 230);
+}

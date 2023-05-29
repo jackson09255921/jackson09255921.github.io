@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Lottery game</title>
+        <link rel="stylesheet" href="mystyle.css">
+
+    </head>
+    <body>
+        <h2>規則說明</h2>
+        <h4>請輸入三個<span>不同數字</span>，範圍為1~10<br>若3個號碼皆命中則得頭獎，2個為二獎，1個為三獎</h4>
+        <h2>請選擇 1 到 10 之間的 3 個號碼</h2>
+        <div class="number-input">
+            <label for="number1">號碼 1：</label>
+            <input type="number" id="number1" min="1" max="10">
+        </div>
+        <div class="number-input">
+            <label for="number2">號碼 2：</label>
+            <input type="number" id="number2" min="1" max="10">
+        </div>
+        <div class="number-input">
+            <label for="number3">號碼 3：</label>
+            <input type="number" id="number3" min="1" max="10">
+        </div>
+        <br>
+        <button onclick="checkNumbers()">確定</button>
+        <button onclick="resetNumbers()">重新輸入</button>
+
+        <hr>
+        <h3>Result:</h3>
+        <p id="result"></p>
+        <script src="myscript.js"></script>
+    </body>
+</html>
